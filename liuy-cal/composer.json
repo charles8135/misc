@@ -1,0 +1,27 @@
+{
+    "name": "liuy/cal",
+    "description": "A demo of php lib using composer",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "liuyue",
+            "email": "charles8135@gmail.com"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "liuy\\cal\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]           
+        
+    },
+
+    "minimum-stability": "stable",
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    }
+}
